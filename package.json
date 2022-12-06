@@ -1,9 +1,10 @@
 {
-  "name": "jb-activity-template",
+  "name": "journey-builder-template",
   "version": "1.0.0",
-  "description": "Journey Builder Activity Template",
-  "engines": {
-    "node": "6.11.1"
+  "description": "**NOTE:** This app and the associated code is NOT production quality, its pure purpose is to demonstrate the full flow of custom interactions in Journey Builder",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
     "start": "node app.js",
@@ -11,32 +12,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devsutd/journey-builder-activity-template.git"
+    "url": "git+https://github.com/svacinadavid/journey-builder-activity-template.git"
   },
-  "keywords": [
-    "journey",
-    "builder",
-    "salesforce marketing cloud",
-    "heroku"
-  ],
-  "author": "Devs United",
+  "author": "David Svačina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devsutd/journey-builder-activity-template/issues"
+    "url": "https://github.com/svacinadavid/journey-builder-activity-template/issues"
   },
-  "homepage": "https://github.com/devsutd/journey-builder-activity-template#readme",
+  "homepage": "https://github.com/svacinadavid/journey-builder-activity-template#readme",
   "dependencies": {
     "@salesforce-ux/design-system": "^2.14.2",
     "body-parser": "^1.18.2",
-    "gulp-json-modify": "^1.0.2",
-    "gulp-sourcemaps": "^3.0.0",
     "errorhandler": "^1.5.0",
     "express": "^4.15.4",
+    "gulp": "^4.0.2",
+    "gulp-json-modify": "^1.0.2",
+    "gulp-sourcemaps": "^3.0.0",
     "jsonwebtoken": "^8.0.1",
     "request": "^2.81.0",
     "require": "^2.4.20"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2"
   }
 }
